@@ -4,10 +4,12 @@ import Input from './components/Input/Input'
 
 function App() {
    return (
-      <form onSubmit={(e) => e.preventDefault()}>
-         <Input placeholder="Enter your email" />
-         <Button type="submit">Submit</Button>
-      </form>
+      <div className='app'>
+         <form onSubmit={(e) => e.preventDefault()}>
+            <Input placeholder="Enter your email" />
+            <Button type="submit">Submit</Button>
+         </form>
+      </div>
    )
 }
 
